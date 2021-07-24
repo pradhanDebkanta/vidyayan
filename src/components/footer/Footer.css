@@ -1,0 +1,36 @@
+.footer{
+    background-color: #B980F0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.debkanta{
+    text-decoration: none !important;
+    padding-left: 5px;
+    color: #CD113B;
+    font-style: italic;
+}
+.debkanta:hover{
+    color: #FF616D;
+}
+.heart{
+    color: #CD113B;
+    padding-right: 6px;
+}
+
+@media (max-width: 479.8px){
+    .footer{
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+    .footer-text{
+        font-size: 0.9rem;
+    }
+
+}

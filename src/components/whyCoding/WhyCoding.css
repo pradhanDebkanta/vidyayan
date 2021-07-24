@@ -1,0 +1,58 @@
+.why-coding{
+    margin-top: 1.5rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+.why-coding-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--navbg);
+    padding: 0.3rem 1rem;
+    font-weight: 500;
+}
+.why-coding-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.why-coding-box{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.reason-logo{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    float: left;
+    /* padding: 0.5rem; */
+    /* font-size: 2rem; */
+}
+.logo{
+    height: 2.5rem;
+}
+.reason-box{
+    display: inline-block;
+    padding-left: 1rem;
+}
+.reason{
+    display: flex;
+    justify-content: left;
+    font-size: 1.2rem;
+}
+.reason-text{
+    font-size: 0.9rem;
+    color: #555;
+}
+
+@media (max-width: 479.8px){
+.why-coding-text{
+        font-size: 0.9rem;
+    }
+    .reason{
+        font-size: 1rem;
+    }
+}

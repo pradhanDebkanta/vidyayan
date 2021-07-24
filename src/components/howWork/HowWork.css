@@ -1,0 +1,39 @@
+.work-container-fluid{
+    background-color:  rgba(238, 231, 231, 1);
+    ;
+}
+.how-work-container{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.work-header{
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    margin-bottom: 1rem;
+}
+.number-box{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    float: left;
+    padding: 0.45rem 0.98rem;
+    background-color: var(--h-color);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.tecqunic-box{
+    margin-left: 2%;
+    padding-left: 3rem;
+}
+
+@media (max-width: 479.8px){
+    .number-box{
+        padding: 0.2rem 0.7rem;
+    }
+    .tecqunic-box{
+        margin-left: 0.8rem;
+        padding-left: 2rem;
+    }
+}

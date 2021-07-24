@@ -1,0 +1,36 @@
+.navBar{
+    background-color: var(--navbg);
+    height: 3rem;
+}
+.nav-box{
+    height: 100%;
+}
+.nav-brand-link{
+    text-decoration: none !important;
+}
+.nav-brand{
+    height: 100%;
+    color: #efffef;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 767.98px) { 
+    .nav-brand{
+        padding-top: 5px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 479.8px) { 
+    .navBar{
+        height: 2.5rem;
+    }
+    .nav-brand{
+        padding-top: 5px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        vertical-align: middle;
+    }
+}

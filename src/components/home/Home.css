@@ -1,0 +1,174 @@
+.home {
+    margin-top: 1.5rem;
+}
+
+.box-1 {
+    padding-top: 3.5rem;
+}
+
+.box-1-heading {
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-bottom: 1.7rem;
+    padding-right: 1.5rem;
+}
+
+.heading-orange {
+    color: var(--navbg);
+}
+
+.home-content {
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    margin-right: 10%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn {
+    margin: 1rem auto;
+    padding: 0.3rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    background-color: var(--navbg);
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.btn-link {
+    text-decoration: none !important;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 2px solid var(--navbg);
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover>.btn-link {
+    color: var(--navbg);
+    transition: all 0.3s ease-in;
+}
+
+.codindg1-box {
+    width: 100%;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.svg-content {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.heading-bottom {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    color: var(--navbg);
+    text-align: center;
+}
+
+.course-box {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.course-item-box {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.course-item {
+    display: flex;
+    justify-content: center;
+}
+
+.course-link {
+    text-decoration: none !important;
+    color: #555;
+}
+
+.course-link:hover {
+    color: var(--navbg);
+}
+
+.course-name {
+    text-align: center;
+    padding-top: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.course-svg {
+    height: 3.2rem;
+    width: auto;
+}
+
+@media (min-width: 767.8px){
+    .home{
+        margin-bottom: 2.35rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .svg-content{
+        margin-top: 1.5em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .btn {
+        margin: 1.1rem auto;
+        padding: 0.2rem 1rem;
+    }
+    .btn-link{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 575.98px) {
+    .box-1{
+        padding-top: 2rem;
+    }
+    .box-1-heading {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 479.8px) {
+    .box-1{
+        padding-top: 2.5rem;
+    }
+    .box-1-heading {
+        font-size: 1.6rem;
+        margin-bottom: 1.3rem;
+    }
+    .home-content {
+        font-size: 0.9rem;
+    }
+
+    .btn{
+        margin: 1.1rem auto;
+        padding: 0.2rem 0.5rem;
+        border-radius: 5px;
+    }
+    .btn-link{
+        font-size: 0.8rem;
+    }
+    .course-name {
+        font-size: 0.85rem;
+    }
+}
