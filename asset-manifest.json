@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/vidyayan/static/css/main.b98d3d4c.chunk.css",
+    "main.js": "/vidyayan/static/js/main.9fd811f9.chunk.js",
+    "main.js.map": "/vidyayan/static/js/main.9fd811f9.chunk.js.map",
+    "runtime-main.js": "/vidyayan/static/js/runtime-main.25b013b6.js",
+    "runtime-main.js.map": "/vidyayan/static/js/runtime-main.25b013b6.js.map",
+    "static/js/2.dc3bcba1.chunk.js": "/vidyayan/static/js/2.dc3bcba1.chunk.js",
+    "static/js/2.dc3bcba1.chunk.js.map": "/vidyayan/static/js/2.dc3bcba1.chunk.js.map",
+    "static/js/3.09548368.chunk.js": "/vidyayan/static/js/3.09548368.chunk.js",
+    "static/js/3.09548368.chunk.js.map": "/vidyayan/static/js/3.09548368.chunk.js.map",
+    "index.html": "/vidyayan/index.html",
+    "static/css/main.b98d3d4c.chunk.css.map": "/vidyayan/static/css/main.b98d3d4c.chunk.css.map",
+    "static/js/2.dc3bcba1.chunk.js.LICENSE.txt": "/vidyayan/static/js/2.dc3bcba1.chunk.js.LICENSE.txt",
+    "static/media/Group1.889c87f3.svg": "/vidyayan/static/media/Group1.889c87f3.svg",
+    "static/media/android.2188c271.svg": "/vidyayan/static/media/android.2188c271.svg",
+    "static/media/c-plus-plus.831e4a74.svg": "/vidyayan/static/media/c-plus-plus.831e4a74.svg",
+    "static/media/python.8f494922.svg": "/vidyayan/static/media/python.8f494922.svg",
+    "static/media/web-development.c7c74396.svg": "/vidyayan/static/media/web-development.c7c74396.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25b013b6.js",
+    "static/js/2.dc3bcba1.chunk.js",
+    "static/css/main.b98d3d4c.chunk.css",
+    "static/js/main.9fd811f9.chunk.js"
+  ]
+}
